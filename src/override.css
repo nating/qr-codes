@@ -16,12 +16,33 @@
     border-color: #ff6576;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #ff6576;
+    border-color: #ff6576;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff6576;
+    border-color: #ff6576;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.selectgroup-input:checked + .selectgroup-button {
+    border-color: #726D93;
+    z-index: 1;
+    color: #726D93;
+    background: #C7BDFD;
+}
+
 a {
     color: #ff6576;
 }
 
 body {
     font-family: 'Palanquin Dark', sans-serif;
+    font-family: 'Open Sans Semibold', sans-serif;
     font-size: 0.9375rem;
     font-weight: 400;
     line-height: 1.5;
@@ -36,8 +57,6 @@ body {
 }
 
 .footer {
-    position: absolute;
-    left: 0 ; right: 0; bottom: 0;
     background:transparent;
     border-top:none;
 }

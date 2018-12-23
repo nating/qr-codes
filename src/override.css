@@ -1,0 +1,56 @@
+
+
+.nav-tabs .nav-link.active {
+    border-color: #2D2478;
+    color: #2D2478;
+}
+
+.btn-outline-primary {
+    color: #ff6576;
+    border-color: #ff6576;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #ff6576;
+    border-color: #ff6576;
+}
+
+a {
+    color: #ff6576;
+}
+
+body {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #FFCCB9;
+    height:100%;
+    min-height: 100vh;
+}
+
+#root {
+  height:100%;
+}
+
+.footer {
+    position: absolute;
+    left: 0 ; right: 0; bottom: 0;
+    background:transparent;
+    border-top:none;
+}
+
+.card {
+  border:none;
+  border-radius:15px;
+}
+
+.nav-tabs {
+  color:#726D93;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: transparent;
+}
